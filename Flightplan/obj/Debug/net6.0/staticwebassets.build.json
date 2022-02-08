@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "FSPepsfoy9MJjtu5offWZJaGrozzwqSOBApFVX9zprg=",
+  "Source": "Flightplan",
+  "BasePath": "_content/Flightplan",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Flightplan\\wwwroot",
+      "Source": "Flightplan",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\css\\site.css",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "css/site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\FlightPlan.html",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "FlightPlan.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\FlightPlan.html"
+    },
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\Images\\26859.jpg",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "Images/26859.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\26859.jpg"
+    },
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\site.js",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ]
+}
