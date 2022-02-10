@@ -3,7 +3,8 @@ using Flightplan.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<PlaneDb>(opt => opt.UseInMemoryDatabase("TodoList"));
+builder.Services.AddDbContext<PlaneDb>(opt => opt.UseInMemoryDatabase("PlaneList"));
+builder.Services.AddDbContext<PassengerDb>(opt => opt.UseInMemoryDatabase("PassengerList"));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 var app = builder.Build();
 
@@ -11,6 +12,8 @@ app.MapGet("/", () => "Hello World!");
 
 app.MapGet("/Planes", async (PlaneDb db) =>
     await db.Planes.ToListAsync());
+app.MapGet("/Passengers", async (PassengerDb db) =>
+    await db.Passengers.ToListAsync());
 
 app.MapGet("/Planes/complete", async (PlaneDb db) =>
     await db.Planes.Where(t => t.IsComplete).ToListAsync());
@@ -20,6 +23,9 @@ app.MapGet("/Planes/{id}", async (int id, PlaneDb db) =>
         is Plane plane
             ? Results.Ok(plane)
             : Results.NotFound());
+app.MapGet("/Planes/Passengers/{Plane}", async (int Plane, PassengerDb db) =>
+        await db.Passengers.Where(t=>t.PlaneId==Plane).ToListAsync());
+
 
 app.MapPost("/Planes", async (Plane plane, PlaneDb db) =>
 {
@@ -28,6 +34,14 @@ app.MapPost("/Planes", async (Plane plane, PlaneDb db) =>
 
     return Results.Created($"/Planes/{plane.Id}", plane);
 });
+app.MapPost("/Passengers", async (Passenger passenger, PassengerDb db) =>
+{
+    db.Passengers.Add(passenger);
+    await db.SaveChangesAsync();
+
+    return Results.Created($"/Planes/{passenger.Id}", passenger);
+});
+
 
 app.MapPut("/Planems/{id}", async (int id, Plane inputPlane, PlaneDb db) =>
 {

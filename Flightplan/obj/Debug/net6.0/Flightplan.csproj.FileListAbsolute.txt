@@ -258,3 +258,4 @@ D:\Git\simple-web-API\Flightplan\obj\Debug\net6.0\Flightplan.pdb
 D:\Git\simple-web-API\Flightplan\obj\Debug\net6.0\Flightplan.genruntimeconfig.cache
 D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
