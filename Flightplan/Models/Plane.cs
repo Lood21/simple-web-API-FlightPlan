@@ -7,6 +7,5 @@
         public string? FromWhere { get; set; }
         public string? ToWhere { get; set; }
         public string? Time { get; set; }
-        public bool IsComplete { get; set; }
     }
 }

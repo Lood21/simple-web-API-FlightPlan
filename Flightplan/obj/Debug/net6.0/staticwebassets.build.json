@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FSPepsfoy9MJjtu5offWZJaGrozzwqSOBApFVX9zprg=",
+  "Hash": "qC0uyXCkLZzVeBglcdHA92ycCawwVnavco3iRgfu0Mw=",
   "Source": "Flightplan",
   "BasePath": "_content/Flightplan",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\admin.html",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "admin.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin.html"
+    },
+    {
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\css\\admin.css",
+      "SourceId": "Flightplan",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
+      "BasePath": "_content/Flightplan",
+      "RelativePath": "css/admin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\admin.css"
+    },
     {
       "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\css\\site.css",
       "SourceId": "Flightplan",
@@ -51,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\FlightPlan.html"
     },
     {
-      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\Images\\26859.jpg",
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\admin.js",
       "SourceId": "Flightplan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
       "BasePath": "_content/Flightplan",
-      "RelativePath": "Images/26859.jpg",
+      "RelativePath": "js/admin.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +99,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\26859.jpg"
+      "OriginalItemSpec": "wwwroot\\js\\admin.js"
     },
     {
       "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\site.js",

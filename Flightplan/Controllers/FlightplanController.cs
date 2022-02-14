@@ -12,10 +12,10 @@ namespace Flightplan.Controllers
 {
     public class FlightplanController : Controller
     {
-        private readonly PlaneDb _context;
+        private readonly BookingDb _context;
 
 
-        public FlightplanController(PlaneDb context)
+        public FlightplanController(BookingDb context)
         {
             _context = context;
         }

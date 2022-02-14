@@ -5,6 +5,11 @@
       "ProjectGuid": "f4bc674d-991d-4e84-aab2-69df3916ad6b",
       "DisplayName": "Flightplan",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

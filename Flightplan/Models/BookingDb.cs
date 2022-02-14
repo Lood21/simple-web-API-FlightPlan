@@ -3,10 +3,12 @@ using System.Diagnostics.CodeAnalysis;
 
 namespace Flightplan.Models
 {
-    public class PassengerDb : DbContext
+    public class BookingDb : DbContext
     {
-        public PassengerDb(DbContextOptions<PassengerDb> options)
+        public BookingDb(DbContextOptions<BookingDb> options)
         : base(options) { }
+        public DbSet<Plane> Planes => Set<Plane>();
         public DbSet<Passenger> Passengers => Set<Passenger>();
+        public DbSet<User> Users { get; set; }
     }
 }
