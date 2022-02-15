@@ -259,3 +259,15 @@ D:\Git\simple-web-API\Flightplan\obj\Debug\net6.0\Flightplan.genruntimeconfig.ca
 D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.Owin.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Microsoft.Owin.Host.SystemWeb.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\Owin.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\EntityFramework.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\System.CodeDom.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Git\simple-web-API\Flightplan\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

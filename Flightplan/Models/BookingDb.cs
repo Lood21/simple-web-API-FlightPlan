@@ -9,6 +9,5 @@ namespace Flightplan.Models
         : base(options) { }
         public DbSet<Plane> Planes => Set<Plane>();
         public DbSet<Passenger> Passengers => Set<Passenger>();
-        public DbSet<User> Users { get; set; }
     }
 }

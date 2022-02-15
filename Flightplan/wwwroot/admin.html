@@ -17,6 +17,7 @@
     <div id="editForm">
         <h3>Edit</h3>
         <form action="javascript:void(0);" onsubmit="updateItem()">
+            <input type="hidden" id="edit-id">
             <input type="text" id="edit-planeId">
             <input type="text" id="edit-fromWhere">
             <input type="text" id="edit-toWhere">
@@ -27,7 +28,6 @@
     </div>
 
     <p id="counter"></p>
-
     <table>
         <tr>
             <th>PlaneId</th>
@@ -36,13 +36,13 @@
             <th>Date</th>
             <th></th>
             <th></th>
-            <th></th>pl
+            <th></th>
             <th></th>
         </tr>
         <tbody id="planes"></tbody>
     </table>
 
-    <script src="js/admin.js" asp-append-version="true"></script>
+    <script src="js/admin1.js" asp-append-version="true"></script>
     <script type="text/javascript">
         getItems();
     </script>

@@ -1,0 +1,154 @@
+.Top {
+    width: 100%;
+    height: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #425c5a;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+body{
+    margin:0px;
+}
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 100%;
+}
+#ConteinerOfplanes {
+    float: right;
+    width: auto;
+    height: 500px;
+    position: fixed;
+    left:55%;
+    bottom: 25%;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding: 40px;
+    background-color: #425c5a;
+}
+.container {
+    width: 100%;
+    margin: 10px auto;
+    font-family: Arial;
+    font-size: large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.planeId {
+    color: #ffffff;
+}
+.time {
+    color: #ffffff;
+}
+#Planes {
+    float:left;
+    width: 450px;
+    height: 100%;
+    border-radius: 50px;
+    padding-top: 40px;
+    padding: 40px;
+    background-color: #425c5a;
+}
+.Getplaces {
+    width: 100px;
+    font-size: large;
+    border-radius: 30px;
+    background-color: #d3bfa7;
+    border: 0px solid #d3bfa7;
+    color: #425c5a;
+}
+#hr {
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+hr {
+    
+    height:1px;
+    border:none;
+    background-color: #d3bfa7
+}
+.left{
+    width:40%;
+}
+.middle{
+    width:20%;
+}
+.right{
+    text-align:right;
+    width:40%;
+}
+.text {
+    color: #d7dcdc;
+    margin-bottom:12px;
+}
+.fromWhere {
+    font-size: xx-large;
+    color: #d3bfa7;
+}
+.toWhere {
+    font-size: xx-large;
+    color: #d3bfa7;
+}
+.regular-checkbox {
+    -webkit-appearance: none;
+    background-color: #425c5a;
+    border: 2px solid #d3bfa7;
+    padding: 15px;
+    padding-bottom:30px;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    margin-right:5px;
+}
+.regular-checkbox:checked {
+    background-color: #d3bfa7;
+    border: 2px solid #d3bfa7;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px; 
+}
+.regular-checkbox:disabled {
+    background-color: #425c5a;
+    border: 2px solid gray;
+    padding: 15px;
+    padding-bottom: 30px;
+    border-radius: 8px;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    }
+input[type=submit] {
+    width: 100%;
+    margin-top:20px;
+    font-size: large;
+    border-radius: 30px;
+    background-color: #d3bfa7;
+    border: 0px solid #d3bfa7;
+    color: #425c5a;
+}
+input[type=text] {
+    padding: 5px;
+    border: 2px solid #d3bfa7;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#formNew {
+    float: right;
+    margin-left: 30px;
+    margin-top: 60%;
+    display: table;
+}
+#seats {
+    float: left;
+}

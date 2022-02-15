@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qC0uyXCkLZzVeBglcdHA92ycCawwVnavco3iRgfu0Mw=",
+  "Hash": "TbEjyAv27jQeYVegmD0AfhclE5frU8IU52zxzNINyWc=",
   "Source": "Flightplan",
   "BasePath": "_content/Flightplan",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\css\\admin.css"
     },
     {
-      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\css\\site1.css",
       "SourceId": "Flightplan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
       "BasePath": "_content/Flightplan",
-      "RelativePath": "css/site.css",
+      "RelativePath": "css/site1.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site1.css"
     },
     {
       "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\FlightPlan.html",
@@ -85,12 +85,12 @@
       "OriginalItemSpec": "wwwroot\\FlightPlan.html"
     },
     {
-      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\admin.js",
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\admin1.js",
       "SourceId": "Flightplan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
       "BasePath": "_content/Flightplan",
-      "RelativePath": "js/admin.js",
+      "RelativePath": "js/admin1.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\admin.js"
+      "OriginalItemSpec": "wwwroot\\js\\admin1.js"
     },
     {
-      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\js\\site1.js",
       "SourceId": "Flightplan",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Git\\simple-web-API\\Flightplan\\wwwroot\\",
       "BasePath": "_content/Flightplan",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/site1.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,7 +116,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\site1.js"
     }
   ]
 }
