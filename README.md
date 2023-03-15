@@ -7,8 +7,3 @@ That's a University Practice of RESTful app to book places in airplanes.</br>
 * HTML5
 * CSS3
 * JavaScript
-# How to start
-```
-git clone git@github.com:Lood21/Convert.-Numb.-WEB.git
-start html.html
-```
